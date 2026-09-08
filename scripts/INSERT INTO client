@@ -1,0 +1,4 @@
+INSERT INTO cliente (nome, cpf, telefone) VALUES
+    ('Ana Beatriz Souza',   '111.111.111-11', '(69) 99111-1111'),
+    ('Carlos Eduardo Lima', '222.222.222-22', '(69) 99222-2222'),
+    ('Fernanda Ramos',      '333.333.333-33', '(69) 99333-3333');
