@@ -1,5 +1,0 @@
-CREATE TABLE IF NOT EXISTS servico (
-    id_servico   SERIAL PRIMARY KEY,
-    descricao    VARCHAR(200) NOT NULL,
-    valor        NUMERIC(10,2) NOT NULL CHECK (valor >= 0)
-);
