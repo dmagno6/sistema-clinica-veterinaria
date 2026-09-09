@@ -1,11 +1,11 @@
 CREATE TABLE IF NOT EXISTS atendimento (
-    id_atendimento    SERIAL PRIMARY KEY,
-    data              DATE NOT NULL,
-    descricao         VARCHAR(300),
-    valor_total       NUMERIC(10,2) NOT NULL DEFAULT 0 CHECK (valor_total >= 0),
-    id_animal         INT NOT NULL,
-    id_veterinario    INT NOT NULL,
-    id_atendente      INT NOT NULL,
+    id_atendimento SERIAL PRIMARY KEY,
+    data DATE NOT NULL,
+    descricao VARCHAR(300),
+    valor_total NUMERIC(10,2) NOT NULL DEFAULT 0 CHECK (valor_total >= 0),
+    id_animal INT NOT NULL,
+    id_veterinario INT NOT NULL,
+    id_atendente INT NOT NULL,
     CONSTRAINT fk_atendimento_animal
         FOREIGN KEY (id_animal)
         REFERENCES animal (id_animal)
@@ -19,4 +19,3 @@ CREATE TABLE IF NOT EXISTS atendimento (
         REFERENCES atendente (id_atendente)
         ON DELETE RESTRICT
 );
- 

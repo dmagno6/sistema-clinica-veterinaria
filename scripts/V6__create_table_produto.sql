@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS produto (
+    id_produto SERIAL PRIMARY KEY,
+    tipo VARCHAR(50) NOT NULL,
+    marca VARCHAR(100),
+    descricao VARCHAR(200) NOT NULL,
+    valor_compra NUMERIC(10,2) NOT NULL CHECK (valor_compra >= 0)
+);
