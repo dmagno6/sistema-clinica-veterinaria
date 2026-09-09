@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS atendente (
+    id_atendente SERIAL PRIMARY KEY,
+    nome VARCHAR(150) NOT NULL,
+    cpf VARCHAR(14) NOT NULL UNIQUE
+);

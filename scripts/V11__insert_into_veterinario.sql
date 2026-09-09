@@ -1,0 +1,3 @@
+INSERT INTO veterinario (cpf, nome, especialidade) VALUES
+    ('444.444.444-44', 'Dr. Ricardo Alves', 'Clínica Geral'),
+    ('555.555.555-55', 'Dra. Juliana Castro', 'Dermatologia Veterinária');
