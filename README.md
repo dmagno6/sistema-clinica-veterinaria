@@ -15,3 +15,7 @@
 <p align="center">
   <img src="sistema-clinica-veterinaria.png" alt="Diagrama do Modelo Relacional" width="80%">
 </p>
+
+# **_Protótipo Interativo do Sistema_**
+
+  <a href=https://clinica-vet-g1-08.lovable.app>https://clinica-vet-g1-08.lovable.app</a>
