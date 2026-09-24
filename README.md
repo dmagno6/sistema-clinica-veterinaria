@@ -10,12 +10,12 @@
 
   Clínicas veterinárias e funcionários responsáveis pelos atendimentos e pelo gerenciamento dos serviços e produtos.
 
-# **_Modelo Relacional_**
-
-<p align="center">
-  <img src="sistema-clinica-veterinaria.png" alt="Diagrama do Modelo Relacional" width="80%">
-</p>
-
 # **_Protótipo Interativo do Sistema_**
 
   <a href=https://clinica-vet-g1-08.lovable.app>https://clinica-vet-g1-08.lovable.app</a>
+
+# **_Modelo Relacional_**
+
+<p align="center">
+  <img src="modelo-entidade-relacionamento.png" alt="Diagrama do Modelo Relacional" width="80%">
+</p>
